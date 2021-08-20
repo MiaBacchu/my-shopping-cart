@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My shopping cart</title>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header start -->
+        <header>
+            <h1 class="heading"> My Shopping Cart</h1>
+        </header>
+        <!-- main part -->
+        <main class="main">
+            <div class="flex-container">
+                <div class="flex-container1">
+                    <div class="phone-container"><img class="phone-photo" src="images/product-1.png" alt=""></div>
+                    <div>
+                        <h3>iPhone 11 128GB Black
+                        </h3>
+                    </div>
+                </div>
+                <div class="flex-container2">
+                    <div class="icon-container">
+                        <button id="phone-minus">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/minus.png" />
+                        </button>
+                        <input id="phone-input" class="input" type="number" value="1">
+                        <button id="phone-plus"><img
+                                src="https://img.icons8.com/material-rounded/24/000000/plus-math--v1.png" /></button>
+                    </div>
+                    <div class="cross-container">
+                        <h3>$<span id="phone-total">1219</span> </h3>
+                        <img src="images/remove.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-container1">
+                    <div class="phone-container"><img class="phone-photo" src="images/product-2.png" alt=""></div>
+                    <div>
+                        <h3>iPhone 11 Silicone Case - Black
+                        </h3>
+                    </div>
+                </div>
+                <div class="flex-container2">
+                    <div class="icon-container">
+                        <button id="case-minus">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/minus.png" />
+                        </button>
+                        <input id="case-input" class="input" type="number" value="1">
+                        <button id="case-plus"><img
+                                src="https://img.icons8.com/material-rounded/24/000000/plus-math--v1.png" /></button>
+                    </div>
+                    <div class="cross-container">
+                        <h3>$<span id="case-total">59</span> </h3>
+                        <img src="images/remove.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="last-flex-container">
+                <div class="last-heading">
+                    <h3>Subtotal:</h3>
+                    <h3>Tax:</h3>
+                    <h3>Total:</h3>
+                </div>
+                <div class="last-amount">
+                    <h3>$ <span id="sub-total">1278</span></h3>
+                    <h3>$ <span id="tax-total">0</span></h3>
+                    <h3>$ <span id="total">0</span></h3>
+                </div>
+            </div>
+            <button class="button">Check Out</button>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

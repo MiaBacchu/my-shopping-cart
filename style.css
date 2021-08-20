@@ -1,0 +1,59 @@
+.container{width: 80%;
+margin: 0 auto;}
+.heading{margin-bottom: 5rem;}
+.main{background-color: rgba(138, 135, 135, 0.856);
+    width: 100%;
+height: 730px;}
+.flex-container{display: flex;
+    position: relative;
+    top: 4rem;
+    width: 80%;
+    align-items: center;
+gap: 5rem;
+margin: 3rem auto;
+background-color: whitesmoke;
+border-radius: 15px;}
+.flex-container1{display: flex;
+width: 50%;
+gap: 3rem;
+align-items: center;
+padding: 1rem 0 0 1rem;}
+.phone-photo{
+    width: 100%;
+}
+.phone-container{width: 8rem;}
+.input{width: 3rem;
+height: 2rem;
+font-size: 1.5rem;
+border-radius: 10px;}
+.flex-container2{display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+gap: 5rem;}
+.icon-container{display: flex;}
+.cross-container{display: flex;
+    align-items: center;
+gap: 2rem;}
+.last-flex-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 4rem;
+    width: 80%;
+    margin: 3rem auto;
+    background-color: whitesmoke;
+    border-radius: 15px;}
+    .last-heading{
+        padding-left: 4rem;
+    }
+    .last-amount{
+        padding-right: 4rem;
+    }
+    .button{background-color: rgb(20, 83, 20);
+        position: relative;
+    top: 3rem;
+left: 48rem;
+padding: 1rem 2rem;
+border-radius: 10px;
+font-size: 1.6rem;}
